@@ -54,7 +54,7 @@ def writefile(no, title, article, http): #no 是编号，文件名
 
 if __name__ == "__main__":
     httplist = list()
-    for httplist_ in gethttp(10):   #从百度新闻上爬取新闻链接
+    for httplist_ in gethttp(50):   #从百度新闻上爬取新闻链接
         for http in httplist_:
             httplist.append(http)
     clearpath()        #清空文件夹
