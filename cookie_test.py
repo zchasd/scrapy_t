@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import os,sys
 import urllib
 import urllib2
-import scrapy
 import cookielib
 import requests
 from readability import Document
